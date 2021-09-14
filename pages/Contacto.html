@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Dilom Sunglasses - Contacto</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Overpass&display=swap" rel="stylesheet">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="../styles/main.css">
+</head>
+<body>
+	<header id="header">
+		<!-- <nav>
+			<a href="../index.html"><img src="../image/logo.png" alt="Mi Logo"></a>
+			<ul class="listaNav">
+				<li class="listaNav__pag"><a class="listaNav__white" href="../pages/Nosotros.html">NOSOTROS</a></li>
+				<li class="listaNav__pag"><a class="listaNav__white" href="../pages/Productos.html">PRODUCTOS<a/</li>
+				<li class="listaNav__pag"><a class="listaNav__white" href="../pages/PreguntasFrecuentes.html">PREGUNTAS FRECUENTES</a></li>
+				<li class="listaNav__pag"><a class="listaNav__white" href="../pages/Contacto.html">CONTACTO</a></li>
+			</ul>
+		</nav> -->
+		<nav class="navbar navbar-expand-lg navbar-light ">
+			<div class="container-fluid">
+				<a href="../index.html"><img src="../image/logo.png" alt="Mi Logo"></a>
+			  <button class="navbar-toggler navbar-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			  </button>
+			  <div class="collapse navbar-collapse colorHamb" id="navbarNav">
+				<ul class="navbar-nav">
+				  <li class="nav-item">
+					<a class="nav-link active text-light " aria-current="page" href="../pages/Nosotros.html">Nosotros</a>
+				  </li>
+				  <li class="nav-item">
+					<a class="nav-link text-light" href="../pages/Productos.html">Productos</a>
+				  </li>
+				  <li class="nav-item">
+					<a class="nav-link text-light" href="../pages/PreguntasFrecuentes.html">Preguntas frecuentes</a>
+				  </li>
+				  <li class="nav-item">
+					<a class="nav-link text-light" href="../pages/Contacto.html">Contacto</a>
+				  </li>
+				</ul>
+			  </div>
+			</div>
+		  </nav>
+	</header>
+	<main>
+	<h1>CONTACTO</h1>
+	<main class="container"> 
+		<div class="containerContacto row">
+			<div class="containerContacto__item1" class="row">
+				<div class="col-md-12 col-lg-12 col-xs-12 col-xl-8">
+					<form class="containerContacto__item1__formContacto" action="pages/recibe.html" method="GET" enctype="multipart/form-data">
+						<fieldset>
+						<legend>FORMULARIO DE CONTACTO</legend>
+						<div class="mb-3">
+							<label for="campo_nombre" class="form-label">Nombre</label>
+							<input type="text" class="form-control" name="campo_nombre" placeholder="ingrese su nombre" required autocomplete="off">
+						</div>
+						<div class="mb-3">
+							<label for="campo_apellido" class="form-label">Apellido</label>
+							<input type="text" class="form-control" name="campo_apellido" placeholder="ingrese su apellido" autocomplete="off">
+						</div>
+						<div class="mb-3">
+							<label for="campo_email" class="form-label">Email</label>
+							<input type="email" class="form-control" name="campo_email" placeholder=" ingreses su email" autocomplete="off">
+						</div>
+						<div class="mb-3">
+							<select>
+								<option value="1">Lentes de sol</option>
+								<option value="1">Lentes de lectura</option>
+							</select>
+						</div>				
+						<div class="mb-3">
+							<label for="campo_gustos" class="form-label">Que es lo que más te gusta de nuestros lentes?</label>
+							<div class="form-group">
+								<input type="checkbox" class="form-check-input" name="precio" value="el_precio">
+								<label for="precio" class="form-label">El precio</label>
+							</div>
+							<div class="form-group">
+								<input type="checkbox" class="form-check-input" name="diseño" value="el_diseño">
+								<label for="diseño" class="form-label">El diseño</label>	
+							</div>
+							<div class="form-group">
+								<input type="checkbox" class="form-check-input" name="presentación" value="la_presentación">
+								<label for="precio" class="form-label">La presentación</label>	
+							</div>
+						</div>						
+						<div class="mb-3">
+							<label for="exampleTextarea" class="form-label">Dejanos tu comentario</label>
+							<textarea name="campo_area" rows="3" class="form-control col-12"  placeholder="comentario"></textarea>
+						</div>
+						<input type="submit" class="btn btn-primary" class="form-control" name="enviar" value="ENVIAR FORMULARIO" class="formContacto__btnEnviarFormulario">
+						<input type="reset" class="btn btn-primary" class="form-control" name="RESETEAR" value="LIMPIAR">
+						</fieldset>
+					</form>
+				</div>
+			</div>
+			<div class=" Contacto__item2 col-lg-12 col-md-12 col-xs-12 col-xl-4"  >
+				<legend>Ubicacion</legend>
+				<iframe  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3404.3868073874446!2d-64.22019288468033!3d-31.431016504105223!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9432a26d454adb83%3A0x24e4a8d9bee1ecb0!2sAv.%20Fuerza%20Aerea%20Argentina%202165%2C%20C%C3%B3rdoba!5e0!3m2!1ses-419!2sar!4v1631546032794!5m2!1ses-419!2sar" width="500" height="350" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+			</div>	
+		</div>
+
+	</main>
+	<footer class="foot">
+		<div class="foot__divFooter">
+			<h4>DILOM SUNGLASSES</h4>
+			<div>
+				<p>dilomsunglasses@gmail.com</p>
+				<p>(+54 351)332-7191</p>
+			</div>
+		</div>
+		<div class="foot__divFooter">
+			<h4>HORARIOS DE ATENCION</h4>
+			<div>
+				<p>LUNES A SABADO</p>
+				<p>09:00 Hs. A 19:00 Hs.</p>
+			</div>
+		</div>
+		<div class="foot__divFooter">
+			<h4>SEGUINOS</h4>
+			<div>
+				<a href="https://instagram.com/dilom.sunglasses?utm_medium=copy_link" target="blank"><img src="../image/logoInst.png" alt="Logo Inst" width="40px"></a>
+				<a href="https://www.facebook.com/Dilomandco-100280835537733" target="blank"><img src="../image/logoFaceb.png" alt="Logo Face" width="40px"></a>
+			</div>
+		</div>
+		<div class="foot__divFooter foot__divFooter--copyright">
+			<p>Copyright © 2021 Pleyades Company S.L. Todos los derechos reservados</p>
+		</div>
+	</footer>
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>			
+</body>	
+</html>

@@ -1,0 +1,335 @@
+nav {
+  padding-left: 20px;
+}
+
+#header {
+  background-color: black;
+  padding: 20px;
+}
+
+.listaNav {
+  margin-left: 10px;
+  font-family: 'Overpass', sans-serif;
+  position: relative;
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row nowrap;
+          flex-flow: row nowrap;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.listaNav__pag {
+  margin-right: 25px;
+  font-size: 1.3rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.listaNav a:hover {
+  color: #dda760;
+}
+
+.listaNav__white {
+  color: white;
+  text-decoration: none;
+}
+
+.foot {
+  font-family: 'Overpass', sans-serif;
+  padding-left: 20px;
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  background: -webkit-gradient(linear, right top, left top, from(#352312), to(#dda760));
+  background: linear-gradient(270deg, #352312 0%, #dda760 100%);
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto auto auto;
+      grid-template-columns: auto auto auto;
+  -ms-grid-rows: auto auto;
+      grid-template-rows: auto auto;
+}
+
+.foot__divFooter {
+  padding-top: 20px;
+}
+
+.foot__divFooter--copyright {
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 3;
+  grid-column: 1 / span 3;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+main {
+  background-color: #c0bdbd;
+  height: 100%;
+  padding-bottom: ;
+}
+
+h1 {
+  text-align: center;
+  font-size: 35px;
+  font-family: 'Overpass', sans-serif;
+  padding: 25px;
+  color: black;
+}
+
+h2 {
+  font-size: 30px;
+  font-family: 'Overpass', sans-serif;
+  padding: 20px;
+  color: black;
+  text-align: center;
+}
+
+h3 {
+  font-family: 'Overpass', sans-serif;
+  margin-top: 10px;
+  padding-top: 2.5px;
+}
+
+h4 {
+  font-size: 20px;
+  font-family: 'Overpass', sans-serif;
+  color: black;
+}
+
+@media only screen and (max-width: 768px) {
+  #header {
+    background-color: rgba(207, 206, 206, 0.712);
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  #header {
+    background-color: #443e68;
+  }
+}
+
+.fondoImagenMain {
+  background-color: black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.tablaProductoDest {
+  border-collapse: collapse;
+  font-family: 'Overpass', sans-serif;
+  padding: 30px;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.tablaProductoDest__th {
+  border: 3px solid;
+}
+
+.tablaProductoDest__td {
+  border: 3px solid;
+}
+
+.tablaProductoDest__listaProductoDestacado {
+  list-style: none;
+  text-align: left;
+  margin-left: -21px;
+  margin-right: 20px;
+}
+
+.btnProductoDEstacado {
+  text-align: center;
+  border: none;
+  padding: 25px 25px;
+}
+
+.productosGeneral {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto auto;
+      grid-template-columns: auto auto;
+  background-color: #c0bdbd;
+}
+
+.productosGeneral__cadaProducto {
+  margin: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 455px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.productosGeneral__descripcionProducto {
+  display: -ms-grid;
+  display: grid;
+  font-size: 15px;
+  font-family: 'Overpass', sans-serif;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+}
+
+.productosGeneral__cadaProducto--lentes3 {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 2;
+  grid-row: 1 /3;
+}
+
+.productosGeneral__precio {
+  font-weight: bold;
+  font-style: italic;
+}
+
+.mainNosotros {
+  width: 100%;
+  height: 80%;
+}
+
+.containerNosotros {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 5px;
+  padding: 20px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.containerNosotros__item1 {
+  font-family: 'Overpass', sans-serif;
+  padding: 20px;
+  width: 50%;
+  height: 400px;
+  text-align: start;
+  border: 2px #9e9393;
+}
+
+.containerNosotros__item2 {
+  padding: 20px;
+  width: 50%;
+  height: 400px;
+  text-align: center;
+  align-items: center;
+}
+
+.containerContacto {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin: 5px;
+  padding: 20px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 90%;
+  height: 100%;
+}
+
+.containerContacto__item1 {
+  padding: 20px;
+  width: 100px;
+  /* height: 500px; */
+  text-align: start;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+}
+
+.containerContacto__item2 {
+  padding: 20px;
+  width: 10%;
+  height: 500px;
+}
+
+.formContacto {
+  margin: 5px;
+  padding: 5px;
+}
+
+.formContacto__btnEnviarFormulario {
+  width: 200px;
+  padding: 10px;
+  margin-bottom: 115px;
+  margin-left: 300px;
+  -webkit-transition: all 0.5s ease-out;
+  transition: all 0.5s ease-out;
+  background: black;
+}
+
+.formContacto__btnEnviarFormulario:hover {
+  background-color: #dda760;
+  color: white;
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+legend {
+  margin-bottom: 10px;
+}
+
+.preguntFrec {
+  font-family: 'Overpass', sans-serif;
+  padding-left: 20px;
+}
+
+.preguntFrec__texto {
+  padding: 25px;
+  width: 60%;
+}
+
+.collapseChilli {
+  background-color: #c0bdbd;
+}
+.colorHamb{
+  color: white;
+  border-color: white;
+}

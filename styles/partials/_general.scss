@@ -1,0 +1,54 @@
+$colorbg: rgb(192, 189, 189);
+$colortext: black;
+$padding:5px;
+
+*{
+	margin:0px;
+	padding: 0px;
+}
+
+main{
+	background-color: $colorbg;
+	
+}
+
+h1{
+	text-align: center;
+	font-size: 35px;
+	font-family: 'Overpass', sans-serif;
+	padding: 5*$padding;
+	color: $colortext;
+}
+
+h2{
+	font-size: 30px;
+	font-family: 'Overpass', sans-serif;
+	padding: $padding+15;
+	color: $colortext;
+	text-align: center;
+}
+
+h3{
+	font-family: 'Overpass', sans-serif;
+	margin-top: 10px;
+	padding-top: ($padding/2);
+}
+
+h4{
+	font-size: 20px;
+	font-family: 'Overpass', sans-serif;
+	color: $colortext;
+}
+
+@media only screen and (max-width: 768px) /*tablet*/{
+	#header{
+		background-color: rgba(207, 206, 206, 0.712);
+	}
+
+}
+
+@media only screen and (max-width: 425px) /*Celu*/ {
+	#header{
+		background-color:rgb(68, 62, 104);
+	}
+}
