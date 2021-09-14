@@ -40,15 +40,4 @@ h4{
 	color: $colortext;
 }
 
-@media only screen and (max-width: 768px) /*tablet*/{
-	#header{
-		background-color: rgba(207, 206, 206, 0.712);
-	}
 
-}
-
-@media only screen and (max-width: 425px) /*Celu*/ {
-	#header{
-		background-color:rgb(68, 62, 104);
-	}
-}
